@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,40 +8,76 @@
 }
 
 body{
+    font-family: asap, sans-serif;
     padding: 20px 5px;
-    background: gray;
+    background: url("pattern%20(1).png");
 }
 .tili{
+    color:black;
+    font-weight: bold;
     float: right;
     padding: 10px;
+}
+
+#paaotsikko{
+    font-family: alex brush, sans-serif;
+    text-align: center;
+    font-size: 10em;
+    text-decoration: underline;
 }
 
 nav {
     width: 100%;
     margin: 0 auto;
-    border-radius: 7px;
-    padding: 10px;
-    background-color: aqua;
+    padding: 10px 0 0 0;
+background: linear-gradient(to right, #0066ff -10%, #66ff66 80%, #66ff66 0%, #0066ff 100%);
     float:left;
 }
-
+.navLink{
+text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
 li{ 
-    padding: 10px;
+    padding:0 10px;
     border-right: solid;
     border-width: thin;
     float:left;
     list-style-type: none;
 }
-div{
+#mainDiv{
     margin: 0 auto;
-    width: 900px;
-    height:200px;
-    background: white;
+    width: 1000px;
+    height:100%;
+    background: linear-gradient(to bottom, #ffffff 0%, #33ccff 300%);
     border-radius: 7px;
 }
-.navLink{
-text-decoration: none;
+
+.searchBar{
+    position: relative;
+    top:-5px;
+
 }
-searchBar{
-    border-right: none;
+.searchBar input{
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+}
+.ostoskori{
+    position: relative;
+    top:-6px;
+    border: none;
+    float:left;
+}
+
+#buyNum{
+    position: relative;
+    float:left;
+    top:5px;
+}
+
+#suurennuslasi{
+    position: relative;
+    right:26px;
+    top:6px;
 }
